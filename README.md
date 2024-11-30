@@ -28,7 +28,8 @@
 Copia el siguiente proyecto para poder clonarlo y ponerlo a funcionar en tu máquina local.
 
 ```bash
-git clone https://github.com/tuusuario/ecommerce-springboot.git
+git clone https://github.com/JuanjMedina/Ecomerce-Springboot.git
+gh repo clone JuanjMedina/Ecomerce-Springboot
 cd ecommerce-springboot
 ```
 
