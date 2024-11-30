@@ -1,0 +1,1 @@
+create database ecomerce_db;
