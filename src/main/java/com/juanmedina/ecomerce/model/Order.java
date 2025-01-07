@@ -1,5 +1,6 @@
 package com.juanmedina.ecomerce.model;
 
+import com.juanmedina.ecomerce.enums.StatusOrder;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,7 +17,9 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
 
-    String status;
+    @Enumerated(EnumType.STRING)
+    StatusOrder status;
+
     Double totalPrice;
     String Direction;
 
